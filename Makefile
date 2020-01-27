@@ -12,4 +12,4 @@ test: build
 
 .PHONY: dist
 dist:
-	env GOOS=linux GOARCH=amd64 go build -o ./dist/supertube_linux_amd64
+	./dist-build.sh github.com/hobochild/supertube
